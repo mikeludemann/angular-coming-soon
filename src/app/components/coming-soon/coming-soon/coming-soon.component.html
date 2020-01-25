@@ -1,0 +1,16 @@
+<div id="container" class="container" [ngStyle]="container">
+  <div class="middle" [ngStyle]="middle">
+    <div class="headline" [ngStyle]="headline">
+      <h1>
+        {{this.title}}
+      </h1>
+    </div>
+    <hr class="parting-line" [ngStyle]="partingLine">
+    <div class="countdown" [ngStyle]="countdown">
+      <div #coming></div>
+    </div>
+    <div class="text-middle" [ngStyle]="simpleText">
+      {{this.extratext}}
+    </div>
+  </div>
+</div>
